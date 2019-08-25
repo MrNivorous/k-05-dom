@@ -1,2 +1,4 @@
-let mainDOM = document.getElementbyId('main')
-let mainClassesDOM = document.getElementbyClassName('main')
+let mainDOM = document.getElementById('main')
+let mainClassesDOM = document.getElementsByClassName('main')
+
+console.log(mainClassesDOM)
