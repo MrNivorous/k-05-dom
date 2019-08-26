@@ -1,7 +1,15 @@
+// 050401
 console.log(document.getElementById('main'))
 
-let classes = Array.from(document.getElementsByClassName('selected'))
+// 050402
+// let classes = Array.from(document.getElementsByClassName('selected'))
+//
+// console.log(classes)
+//
+// classes.forEach(e => e.classList.add('primary'))
 
-console.log(classes)
+// 050403
 
-classes.forEach(e => e.classList.add('primary'))
+let classes = Array.from(document.getElementsByClassName('primary'))
+
+classes.forEach(e => e.classList.remove('selected'))
