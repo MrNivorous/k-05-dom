@@ -10,6 +10,14 @@ console.log(document.getElementById('main'))
 
 // 050403
 
-let classes = Array.from(document.getElementsByClassName('primary'))
+let removeSelected = () => {
+	let classes = Array.from(document.getElementsByClassName('selected'))
 
-classes.forEach(e => e.classList.remove('selected'))
+	classes.forEach(e => {
+		if (!e.classList.contains('primary')) {
+		e.classList.remove('selected')
+	}
+	})
+}
+
+removeSelected()

@@ -10,3 +10,5 @@ let a = (el) => {
 		el.classList.remove('off')
 	}
 }
+
+Array.from(document.getElementsByClassName('number').value)forEach(e => e[0] + e[1])
